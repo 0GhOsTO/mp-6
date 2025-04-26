@@ -16,7 +16,7 @@ export default async function Dashboard(){
     const {name, email, image} = state.user;
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-            <h1 className="text-3xl font-bold mb-6">Welcome to Your Dashboard</h1>
+            <h1 className="text-3xl font-bold mb-6">Welcome</h1>
             {image && (
                 <img
                     src={image}

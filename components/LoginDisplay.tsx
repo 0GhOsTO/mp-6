@@ -19,7 +19,7 @@ export default function LoginDisplay() {
             }
         })
             .catch(() => {
-                setLoading(false);
+                router.push("/");
             })
     }, [])
 
@@ -35,8 +35,9 @@ export default function LoginDisplay() {
         <div
             style={{
                 display: "flex",
-                flexDirection: "column",
+                flexDirection: "row",
                 alignItems: "center",
+                height:"60vh",
             }}>
             <LoggingIn/>
         </div>
